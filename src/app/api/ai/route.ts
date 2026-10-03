@@ -16,7 +16,7 @@ export async function POST(req: Request) {
         'Authorization': `Bearer ${process.env.AI_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'gpt-4o-mini', // Model default. Bisa diganti sesuai Clouvia
+        model:'coding-high-flash', // Model default. Bisa diganti sesuai Clouvia
         messages: [
           { 
             role: 'system', 
